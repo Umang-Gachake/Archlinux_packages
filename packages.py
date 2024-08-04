@@ -7,7 +7,7 @@ type = distro.like()
 
 
 def update():  # this function update the operating system
-    name = distro.name()  # os variable holds the name of distros
+    name = distro.name()  # name variable holds the name of distros
     y = str(
         input(
             colored(
